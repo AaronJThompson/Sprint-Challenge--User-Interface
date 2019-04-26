@@ -197,6 +197,12 @@ footer nav a {
     text-decoration: none;
     font-weight: bold;
     color: black;
+    transition: 0.3s;
+    border-bottom: 2px solid black;
+    border-bottom-width: 0;
+}
+.nav-bar nav a:hover{
+    border-bottom-width: 2px;
 }
 .heading-img{
     width: 100%;
