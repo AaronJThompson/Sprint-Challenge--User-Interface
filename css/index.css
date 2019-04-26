@@ -250,8 +250,13 @@ footer nav a {
     padding: 6px 18px;
     margin-top: 10px;
     font-family: inherit;
+    transition: 0.3s;
+    color: black;
 }
-
+.learn-more-box button:hover{
+    background-color: black;
+    color: white;
+}
 .learn-more-box img{
     margin-bottom: 10px;
 }
