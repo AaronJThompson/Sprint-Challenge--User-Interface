@@ -282,3 +282,35 @@ footer nav a {
 .about-footer-section{
     margin-bottom: 40px;
 }
+
+/* Contact page css */
+.form-container{
+    display: flex;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.form-container .input-names h3{
+    margin-bottom: 20px;
+}
+.contact-form ul li{
+    margin-bottom: 16px;
+}
+#contact-submit-form{
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 100%;
+    margin: 10px;
+    font-family: inherit;
+    padding: 5px 20px;
+    transition: 0.3s;
+    color: black;
+}
+#contact-submit-form:hover{
+    background-color: black;
+    color: white;
+}
