@@ -205,3 +205,13 @@ footer nav a {
 .text-container{
     font-weight: bold;
 }
+/* About page specific styles */
+
+.heading-img-about{
+    width:100%;
+    margin-bottom: 20px;
+}
+.about-main-content{
+    width: 95%;
+    margin: 0 auto;
+}
