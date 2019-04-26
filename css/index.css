@@ -75,6 +75,11 @@ h1, h2, h3, h4, h5, p {
 .container {
     width: 800px;
     margin: 0 auto;
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
 }
 
 .top-content {
@@ -183,7 +188,7 @@ footer nav a {
     text-decoration: none;
 }
 @keyframes fadeFromTop {
-    from {top:-80px; opacity: 0;}
+    from {top:-60px; opacity: 0;}
     to {top:0px; opacity: 1;}
 }
 
@@ -196,8 +201,8 @@ footer nav a {
     position: relative;
     animation-name: fadeFromTop;
     animation-duration: 1s;
-    animation-delay: 0.5s;
-    top: -80px;
+    animation-delay: 0.4s;
+    top: -60px;
     animation-fill-mode: forwards;
 }
 .nav-bar nav{
